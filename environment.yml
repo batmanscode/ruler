@@ -1,0 +1,8 @@
+name: ruler
+channels:
+  - defaults
+dependencies:
+  - pandas
+  -pip:
+    - streamlit
+    - pycaret
