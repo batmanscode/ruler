@@ -1,8 +1,8 @@
 # Ruler 📏
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]()
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/batmanscode/ruler/main/ruler.py)
 
-Live at: 
+Live at: https://rulerapp.herokuapp.com/
 
 This web app uses machine learning to generate product recommendations ([association rule learning](https://en.wikipedia.org/wiki/Association_rule_learning)) from an input CSV.
 
@@ -15,7 +15,7 @@ Demo data used is a variation of: [Online Retail Data Set](https://archive.ics.u
 
 
 ### Demo
-![demo]()
+![demo](https://github.com/batmanscode/ruler/blob/main/demo.gif)
 
 ## How to Run Locally
 Clone this repository, create a new environment, and enter the following in your terminal:
