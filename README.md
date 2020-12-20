@@ -2,8 +2,6 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/batmanscode/ruler/main/ruler.py)
 
-Live at: https://rulerapp.herokuapp.com/
-
 This web app uses machine learning to generate product recommendations ([association rule learning](https://en.wikipedia.org/wiki/Association_rule_learning)) from an input CSV.
 
 The input CSV needs the following input columns:
