@@ -20,7 +20,7 @@ Demo data used is a variation of: [Online Retail Data Set](https://archive.ics.u
 ## How to Run Locally
 Clone this repository, create a new environment, and enter the following in your terminal:
 ```shell
-streamlit run app.py
+streamlit run ruler.py
 ```
 This will create a local web server which should open in your default browser. If not just use one of the links returned in your terminal.
 
