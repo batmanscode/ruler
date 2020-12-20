@@ -370,3 +370,14 @@ if hints.checkbox("Click here to show hints 😊"):
                 """
             )
         )
+
+# hide hamburger menu
+# https://discuss.streamlit.io/t/remove-made-with-streamlit-from-bottom-of-app/1370/2
+# https://github.com/streamlit/streamlit/issues/395#issuecomment-579526417
+
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
