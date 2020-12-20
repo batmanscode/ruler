@@ -9,6 +9,7 @@ The input CSV needs the following input columns:
 * Unique transaction ID (like an invoice number)
 * Item name
 
+To see what the output looks like, click 'Get rules' and rules will be generated using built in sample data.\
 Sample data used is a variation of: [Online Retail Data Set](https://archive.ics.uci.edu/ml/datasets/online+retail)
 
 
@@ -16,11 +17,11 @@ Sample data used is a variation of: [Online Retail Data Set](https://archive.ics
 ![demo](https://github.com/batmanscode/ruler/blob/main/demo.gif)
 
 ## How to Run Locally
-Clone this repository, create a new environment, and enter the following in your terminal:
+Clone this repository into a new environment and enter the following in your terminal:
 ```shell
 streamlit run ruler.py
 ```
-This will create a local web server which should open in your default browser. If not just use one of the links returned in your terminal.
+This will create a local web server which should open in your default browser. If not, just use one of the links returned in your terminal.
 
 ## Additional Info
 * Web app built with [Streamlit](https://github.com/streamlit/streamlit).
