@@ -2,7 +2,7 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/batmanscode/ruler/main/ruler.py)
 
-This web app uses machine learning to generate product recommendations ([association rule learning](https://en.wikipedia.org/wiki/Association_rule_learning)) from an input CSV.
+This web app uses machine learning to generate recommendations ([association rule learning](https://en.wikipedia.org/wiki/Association_rule_learning)) from an input CSV.
 
 The input CSV needs the following input columns:
 
