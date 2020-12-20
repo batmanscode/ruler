@@ -9,7 +9,7 @@ The input CSV needs the following input columns:
 * Unique transaction ID (like an invoice number)
 * Item name
 
-Demo data used is a variation of: [Online Retail Data Set](https://archive.ics.uci.edu/ml/datasets/online+retail)
+Sample data used is a variation of: [Online Retail Data Set](https://archive.ics.uci.edu/ml/datasets/online+retail)
 
 
 ### Demo
