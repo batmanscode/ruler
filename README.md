@@ -17,7 +17,7 @@ Sample data used is a variation of: [Online Retail Data Set](https://archive.ics
 ![demo](https://github.com/batmanscode/ruler/blob/main/demo.gif)
 
 ## How to Run Locally
-Clone this repository into a new environment and enter the following in your terminal:
+Clone this repository into a new environment, install dependencies from `requirements.txt` and enter the following in your terminal:
 ```shell
 streamlit run ruler.py
 ```
