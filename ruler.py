@@ -41,7 +41,7 @@ if upload is None:
         st.write("*or use the sample data below*")
 
 
-with st.beta_expander("Data", expanded=True):
+with st.expander("Data", expanded=True):
     with st.spinner("Epicly loading data..."):
         try:
             data = load_data(upload)
@@ -61,7 +61,7 @@ st.title("Parameter Selection")
 
 st.subheader("What's what?")
 
-col1, col2, col3, col4 = st.beta_columns(4)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     item = st.selectbox("Item description column", options=(data.columns), index=2)
@@ -133,9 +133,8 @@ ignore_hint = st.empty()
 
 
 st.markdown("---")
-# st.title("Ruling")
 
-get_rules = st.button("Get rules")  # <- leave if everything goes wrong
+get_rules = st.button("Get rules", key="rules")  # <- leave if everything goes wrong
 
 
 @st.cache(show_spinner=False)
@@ -153,12 +152,8 @@ def model_rules():
 
 # session state for get_rules button
 ###########################################################
-import SessionState
 
-session_state = SessionState.get(get_rules=None)
-
-if get_rules or session_state.get_rules:
-    session_state.get_rules = True
+if get_rules or session_state.rules:
     with st.spinner("Ruling the rules..."):
         rules = model_rules()
 
@@ -305,9 +300,9 @@ if get_rules or session_state.get_rules:
 
     # creating download links for rules, input data and the summary
     # had to resort to this since couldn't get excel thing working
-    with download_link.beta_container():
+    with download_link.container():
 
-        col1, col2, col3 = st.beta_columns(3)
+        col1, col2, col3 = st.columns(3)
 
         with col1:
             st.markdown(
