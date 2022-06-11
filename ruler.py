@@ -181,7 +181,7 @@ def format_rules(df):
     return df
 
 
-if get_rules or session_state.get_rules:
+if get_rules or st.session_state.get_rules:
 
     st.title("Results 📋")
 
