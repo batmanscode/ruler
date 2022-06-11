@@ -35,7 +35,7 @@ def load_data(data):
 upload = st.file_uploader("upload your data in csv or xlsx", type=["csv", "xlsx"])
 
 if upload is None:
-    col1, col2, col3 = st.beta_columns(3)
+    col1, col2, col3 = st.columns(3)
 
     with col2:
         st.write("*or use the sample data below*")
@@ -153,7 +153,7 @@ def model_rules():
 # session state for get_rules button
 ###########################################################
 
-if get_rules or session_state.rules:
+if get_rules or st.session_state.rules:
     with st.spinner("Ruling the rules..."):
         rules = model_rules()
 
