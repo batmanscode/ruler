@@ -184,7 +184,7 @@ def format_rules(df):
     return df
 
 
-if get_rules or st.session_state.get_rules:
+if get_rules or st.session_state.rules:
 
     st.title("Results 📋")
 
@@ -353,7 +353,7 @@ if hints.checkbox("Click here to show hints 😊"):
         "###### **💡 Hint**: things in your item list that might not be useful like delivery charges"
     )
 
-    if get_rules or session_state.get_rules:
+    if get_rules or session_state.rules:
         st.markdown(
             table_hint.info(
                 """
