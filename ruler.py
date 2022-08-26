@@ -134,7 +134,10 @@ ignore_hint = st.empty()
 
 st.markdown("---")
 
-get_rules = st.button("Get rules", key="rules")  # <- leave if everything goes wrong
+get_rules = st.button("Get rules", key="rules")
+
+if 'rules' not in st.session_state:
+    st.session_state.key = False
 
 
 @st.cache(show_spinner=False)
