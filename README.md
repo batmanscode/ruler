@@ -26,4 +26,3 @@ This will create a local web server which should open in your default browser. I
 ## Additional Info
 * Web app built with [Streamlit](https://github.com/streamlit/streamlit).
 * Associaton rules generated using Pycaret's [Association Rules module](https://pycaret.readthedocs.io/en/latest/api/arules.html).
-* If you're using conda, you can use `environment.yml` to create a new environment.
